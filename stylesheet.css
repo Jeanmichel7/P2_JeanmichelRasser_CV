@@ -1,0 +1,147 @@
+body{
+    display:flex;  
+    max-width:1181px;
+}
+#gauche{
+    width:384px;
+    background-color:#FFCA28;
+    
+}
+.photo{
+    width:60px;
+    height:60px;
+    margin:20px 20px 20px 20px;
+}
+.cadrephoto{
+    height:328px;
+}
+
+.fondnoire{
+    background-color:#404040;
+    max-height:48px;
+    text-align:center;
+    margin:auto;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:sherif;
+    font-size:15px;
+    color:#FFCA28;
+}
+.contact p{
+    margin: 20px 30px 20px 30px;
+    font-family:Arial;
+    font-size:0.7em;
+}
+.aproposde p{
+    margin:20px 30px 20px 30px;
+    text-align:justify;
+    font-size:0.7em;
+}
+.imageloisir{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 30px 20px 30px;
+}
+.nageur{
+    height:30px;
+}
+.vélo{
+    height:30px;
+}
+.pingpong{
+    height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#droite{
+    margin-left:30px;
+}
+header{
+    height:300px;
+}
+#nom{
+    color:#FFCA28
+}
+
+
+
+
+
+
+.formationtext{
+    margin-left:30px;
+    font-family:arial;
+    font-size:1.8em;
+}
+.titreformation{
+    display:flex;
+}
+.imageformation{
+    height:50px;
+}
+
+
+.formation1{
+    display:flex;
+}
+.date{
+    width:30%;
+}
+.formation2{
+    display:flex;
+}
+
+
+
+
+
+
+
+.titreexperience{
+    display:flex;
+}
+.iconebagage{
+    height:50px;
+}
+
+
+
+.titrerecommandation{
+    display:flex;
+}
+.imagerecommandation{
+    height:50px;
+}
+.experience1{
+    display:flex;
+}
+.experience2{
+    display:flex;
+}
+.experience3{
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+.recommandation{
+    display:flex;
+    justify-content: space-around;
+}
