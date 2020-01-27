@@ -1,7 +1,6 @@
 div{                                    /* a enlever*/
     border:1px solid black;
 }
-img{height:50px;}
 
 
 
@@ -13,47 +12,195 @@ img{height:50px;}
 
 
 
-#cotegauche{                                   /*  GAUCHE  */
+#cotegauche{       /* **************** GAUCHE  ************/
     background-color:#FFCA28;
     height:2000px;
 }
 
 .photo{
-    margin-top:30px;
-    margin-bottom: 30px; 
+    margin-top:35px;
+    margin-bottom: 35px; 
     display: flex;
     justify-content:center;
+    padding-top:20px;
+    padding-bottom:20px;
 }
-#fondcontact{
+#contact{                                /*CONTACT*/
     background-color:#404040;
     color:#FFCA28;
+    font-weight: normal;
+    text-align:center;
+    font-size:1.4em;
+}
+#textcontact{
+    display:flex; 
+    flex-direction:column;
+
+    padding-top:20px;
+    padding-bottom:30px;
+
+    font-size:0.7em;
+    font-family:'MS sans serif';
+}
+.contenantcontact{
+    padding: 6px 10px 6px 10px;
+    
     font-weight: bold;
-    text-align:center;
-}
-#adresseetc{
-
 }
 
 
 
 
-#apropos{
+
+
+#apropos{                         /*A PROPOS*/
     background-color: #404040;
     color:#FFCA28;
     text-align:center;
     font-weight:bold;
+    font-size:1.4em;
+}
+#textapropo{
+    padding:20px 20px 20px 20px;
+    text-align:justify;
+    font-family:Arial;
+    height:600px;
 }
 
 
 
 
-#loisirs{
+
+
+#loisirs{                            /*LOISIRS*/
     background-color: #404040;
     color:#FFCA28;
     text-align:center;
     font-weight:bold;
+    font-size:1.4em;
 }
 #imageloisir{
+    display:flex;
+    justify-content:space-around;
+    padding:20px 0px 20px 0px;
+}
+.iconeloisir{
+    height:50px;
+}
+
+
+
+
+
+
+
+
+
+.cotedroite{           /* ************  DROITE  ********** */
+        height:1500px;
+}
+
+
+
+#nam{                  /* *********Titre********/
+    color:#FFCA28;
+    font-weight:bold;
+}
+#name{
+    font-size:2.5em;
+    font-weight:normal;
+    margin-top: 80px;
+}
+#dev{
+    border-bottom:#FFCA28 solid 3px;
+}
+#textdevelop{
+font-size:1.5em;
+margin-bottom:95px;
+}
+
+
+
+
+
+.trait{             /*******COMMUN*******/
+    height:3px;
+    width:100%;
+    background-color:#FFCA28;
+    margin-bottom:30px; 
+}
+
+.h2{
+    font-size:1.5em;
+    margin-left:30px;
+    font-weight:bold;
+
+}
+#h3{
+    font-size:1.1rem;
+   
+}
+.h4{
+    font-size:0.8em;
+  
+}
+
+
+
+
+.bagage{              /*************IMAGE***************/
+    height:30px;
+}                
+.chapeau{
+    height:30px;
+}
+.imagepen{
+    height:30px;
+}
+.dotcercle,.cercle{
+    height:12px;
+    margin-left:10px;
+}
+
+
+
+
+
+
+#titreformation{        /* ******* FORMATION  ********/
+    display:flex;
+    font-weight: bold;
+}
+
+#titreexperience{
+    display:flex;
+}
+#date1{
+    margin-bottom:85px;
+    font-size:0.9em;
+}
+#date2{
+    font-size:0.9em;
+}
+#textformation{
+    font-size:0.8em;
+    text-align:justify;
+    margin-bottom:20px;
+}
+
+
+#
+
+
+
+
+
+
+
+
+
+
+#titrerecommandation{
     display:flex;
 }
 
@@ -66,32 +213,7 @@ img{height:50px;}
 
 
 
-.cotedroite{
-        height:1500px;
-}
-h4{
-    font-size:1.3em;
-}
-h3{
-    font-size:1.7em;
-}
-#nam{
-    color:#FFCA28
-}
-#name{
-    font-size:3em;
-}
-#textdevelop{
-font-size:1.5em;
-}
-#dev{
-    border-bottom:#FFCA28 solid 3px;
-}
-.trait{
-    height:3px;
-    width:100%;
-    background-color:#FFCA28;
-}
+
 #openclass{
     font-weight:bold;
 }
