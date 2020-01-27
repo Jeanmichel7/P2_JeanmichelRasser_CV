@@ -1,10 +1,97 @@
-.cotegauche{
-    background-color:#FFCA28;
-    height:1500px;
+div{                                    /* a enlever*/
+    border:1px solid black;
 }
+img{height:50px;}
+
+
+
+
+
+
+
+
+
+
+
+#cotegauche{                                   /*  GAUCHE  */
+    background-color:#FFCA28;
+    height:2000px;
+}
+
+.photo{
+    margin-top:30px;
+    margin-bottom: 30px; 
+    display: flex;
+    justify-content:center;
+}
+#fondcontact{
+    background-color:#404040;
+    color:#FFCA28;
+    font-weight: bold;
+    text-align:center;
+}
+#adresseetc{
+
+}
+
+
+
+
+#apropos{
+    background-color: #404040;
+    color:#FFCA28;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+
+
+#loisirs{
+    background-color: #404040;
+    color:#FFCA28;
+    text-align:center;
+    font-weight:bold;
+}
+#imageloisir{
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
 .cotedroite{
         height:1500px;
 }
-div{
-    border:1px solid black;
+h4{
+    font-size:1.3em;
+}
+h3{
+    font-size:1.7em;
+}
+#nam{
+    color:#FFCA28
+}
+#name{
+    font-size:3em;
+}
+#textdevelop{
+font-size:1.5em;
+}
+#dev{
+    border-bottom:#FFCA28 solid 3px;
+}
+.trait{
+    height:3px;
+    width:100%;
+    background-color:#FFCA28;
+}
+#openclass{
+    font-weight:bold;
 }
