@@ -1,34 +1,35 @@
-div{                                    /* a enlever*/
-    border:1px solid black;
-}
 
 
 @media all and (max-width:992px){
     .container{
-        width:970px;
-        
+        width:970px;   
     }
     #dotcercle,#cercle{
         height:50px;
         padding-left:30px;
     }
-    #textexperience{
-        padding-left:150px;
+  
+
+    #textcontact{
+        margin-bottom:100px;
     }
-    
     #apropos{
-        position:absolute;
+        margin-top:10px;
+        
+    }
+    #textapropo{
+        margin-bottom:40px;
     }
     #loisirs{
-        position:absolute;
-        margin-top:30px;
+        padding-top:0px; 
     }
-    #imageloisir{
-        margin-top:50px;
-    }
-    #cotegauche{
-        height:2230px;
-    }
+    
+
+
+
+    #textexperience{
+        padding-left:150px;
+    }       
 }
 
 
@@ -41,17 +42,6 @@ div{                                    /* a enlever*/
         height:100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -118,7 +108,7 @@ div{                                    /* a enlever*/
 
 
 
-#cotegauche{       /* **************** GAUCHE  ************/   
+#cotegauche{            /* **************** GAUCHE  ************/   
     background-color:#FFCA28;
 }
 #fondjaune{
@@ -135,7 +125,7 @@ div{                                    /* a enlever*/
     padding-bottom:20px;
 }
 #titrecontact{    
-    position:absolute;                            /*CONTACT*/
+    position:absolute;                  /*CONTACT*/
     background-color:#404040;
     color:#FFCA28;
     font-weight: bold;
@@ -184,7 +174,6 @@ div{                                    /* a enlever*/
 #textapropo{
     text-align:justify;
     font-family:Arial;
-    height:700px;
     color:#404040;
     padding:30px 30px 30px 30px;
     margin-top:70px;
@@ -197,7 +186,7 @@ div{                                    /* a enlever*/
 
 
 #loisirs{  
-    position:absolute;                          /*LOISIRS*/
+    position:absolute;                /*LOISIRS*/
     background-color: #404040;
     color:#FFCA28;
     text-align:center;
@@ -223,7 +212,7 @@ div{                                    /* a enlever*/
 
 
 
-.cotedroite{           /* ************  DROITE  ********** */
+.cotedroite{                  /* ************  DROITE  ********** */
         height:100%;
         color:#404040;
         margin-left:20px;
@@ -238,7 +227,7 @@ div{                                    /* a enlever*/
 #name{
     font-size:3rem;
     font-weight:normal;
-    margin-top: 90px;
+    padding-top: 90px;
     
 }
 #dev{
@@ -322,19 +311,4 @@ div{                                    /* a enlever*/
 }
 #date5{
     font-size:0.9rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#openclass{
-    font-weight:bold;
 }
