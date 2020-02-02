@@ -1,6 +1,5 @@
 
-
-@media all and (max-width:992px){
+@media all and (max-width:929px){
     .container{
         width:970px;   
     }
@@ -13,15 +12,19 @@
     #textcontact{
         margin-bottom:100px;
     }
+   
     #apropos{
-        margin-top:10px;
-        
-    }
-    #textapropo{
-        margin-bottom:40px;
+        position:absolute;
     }
     #loisirs{
-        padding-top:0px; 
+        position:absolute;
+        margin-top:420px;
+    }
+    #imageloisir{
+        margin-top:420px;
+    }
+    #cotegauche{
+        height:2125px;
     }
     
 
@@ -34,15 +37,40 @@
 
 
 
+
 @media all and (max-width:780px){
+    
+    #nam{
+        font-size:2.3rem;
+    }
+    #name, #textdevelop{
+        margin-top:-130px;
+        padding-top:-50px;
+    }
+ 
+
+
     .container{
         width:750px;
     }
-    #textapropo{
+    #cotegauche{
         height:100%;
+        border-radius:20px;
+    }
+    #fondjaune{
+        height:200px;
+    }
+    .img-circle{
+        margin-right:-200px;
+        margin-top:150px;
+    }
+
+
+
+    #titreformation{
+        margin-top:50px;
     }
 }
-
 
 
 
@@ -118,23 +146,25 @@
 
 .photo{
     margin-top:60px;
-    margin-bottom: 60px; 
+    margin-bottom: 120px; 
     display: flex;
     justify-content:center;
     padding-top:20px;
     padding-bottom:20px;
 }
+
 #titrecontact{    
-    position:absolute;                  /*CONTACT*/
+    position:absolute;                        /*CONTACT*/
     background-color:#404040;
     color:#FFCA28;
     font-weight: bold;
     text-align:center;
     font-size:1.6rem;
     font-family:Arial;
+
+    margin-top:-60px;
     padding-top:5px;
     margin-left:-15px;
-    width:500px;
                                             
 }
 #textcontact{
@@ -142,7 +172,6 @@
     flex-direction:column;
     color:#404040;
 
-    margin-top:70px;
     padding-bottom:30px;
     
 
