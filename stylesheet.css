@@ -1,15 +1,16 @@
 
 @media all and (max-width:929px){
     .container{
-        width:970px;
-        
+        width:970px;   
     }
     #dotcercle,#cercle{
         height:50px;
         padding-left:30px;
     }
-    #textexperience{
-        padding-left:150px;
+  
+
+    #textcontact{
+        margin-bottom:100px;
     }
    
     #apropos{
@@ -25,6 +26,13 @@
     #cotegauche{
         height:2125px;
     }
+    
+
+
+
+    #textexperience{
+        padding-left:150px;
+    }       
 }
 
 
@@ -128,7 +136,7 @@
 
 
 
-#cotegauche{       /* **************** GAUCHE  ************/   
+#cotegauche{            /* **************** GAUCHE  ************/   
     background-color:#FFCA28;
 }
 #fondjaune{
@@ -195,7 +203,6 @@
 #textapropo{
     text-align:justify;
     font-family:Arial;
-    height:700px;
     color:#404040;
     padding:30px 30px 30px 30px;
     margin-top:70px;
@@ -208,7 +215,7 @@
 
 
 #loisirs{  
-    position:absolute;                          /*LOISIRS*/
+    position:absolute;                /*LOISIRS*/
     background-color: #404040;
     color:#FFCA28;
     text-align:center;
@@ -234,7 +241,7 @@
 
 
 
-.cotedroite{           /* ************  DROITE  ********** */
+.cotedroite{                  /* ************  DROITE  ********** */
         height:100%;
         color:#404040;
         margin-left:20px;
@@ -249,7 +256,7 @@
 #name{
     font-size:3rem;
     font-weight:normal;
-    margin-top: 90px;
+    padding-top: 90px;
     
 }
 #dev{
@@ -333,19 +340,4 @@
 }
 #date5{
     font-size:0.9rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#openclass{
-    font-weight:bold;
 }
