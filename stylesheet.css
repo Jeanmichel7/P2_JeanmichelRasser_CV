@@ -1,11 +1,8 @@
-
-
-
 @media all and (max-width:970px){
     .container{
         width:970px;   
     }
-    #cotegauche{
+    aside{
         height:2125px;
     }
 
@@ -17,9 +14,9 @@
         padding-left:30px;
     }
     #textcontact{
-        margin-bottom:100px;
+        margin-bottom:80px;
+        padding-top:40px;
     }
-  
     #imageloisir{
         margin-top:200px;
     }
@@ -33,8 +30,6 @@
 
    
 
-    
-
 
     #textexperience{
         padding-left:150px;
@@ -43,6 +38,9 @@
 
 
 
+div{
+    border: black solid 0.02px;
+}
 
 @media all and (max-width:780px){
     .container{
@@ -55,15 +53,16 @@
         font-size:2rem;
         margin-top:-70px;
     }
-    #cotegauche{
-        height:720px;
-        border-radius:20px;
-    }    
+    aside{
+        height:750px;
+    }
     .img-circle{
         margin-top:-100px;
-        margin-bottom:-45px;
-    }
-    
+        margin-bottom:-40px;
+    }        
+
+
+
     #titreformation{
         margin-top:50px;
     }
@@ -134,8 +133,9 @@
 
 
 
-#cotegauche{            /* **************** GAUCHE  ************/   
+aside{            /* **************** GAUCHE  ************/   
     background-color:#FFCA28;
+    border-radius:15px;
 }
 #fondjaune{
     background-color:#FFCA28;
@@ -240,7 +240,7 @@
 
 
 
-.cotedroite{                  /* ************  DROITE  ********** */
+main{                  /* ************  DROITE  ********** */
         height:100%;
         color:#404040;
         margin-left:20px;
@@ -251,6 +251,7 @@
 #nam{                  /* *********Titre********/
     color:#FFCA28;
     font-weight:bold;
+    margin-left:-15px;
 }
 #name{
     font-size:3rem;
@@ -327,10 +328,6 @@
     display:flex;
     margin-top:25px;
 }
-#cadrerecommandation{
-    margin-top:-20px;
-}
-
 #date3{    
     font-size:0.9rem;
 }
