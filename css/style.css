@@ -1,82 +1,3 @@
-@media all and (max-width:970px){
-    .container{
-        width:970px;   
-    }
-    aside{
-        height:2125px;
-    }
-
-
-
-
-    #dotcercle,#cercle{
-        height:50px;
-        padding-left:30px;
-    }
-    #textcontact{
-        margin-bottom:80px;
-        padding-top:40px;
-    }
-    #imageloisir{
-        margin-top:200px;
-    }
-    #loisirs{
-        margin-top:200px;
-    }
-    .iconeloisir{
-        margin-left:35px;
-        margin-bottom:-40px;
-    }
-
-   
-
-
-    #textexperience{
-        padding-left:150px;
-    }       
-}
-
-
-
-div{
-    border: black solid 0.02px;
-}
-
-@media all and (max-width:780px){
-    .container{
-        width:780px;
-    }
-    #nam{
-        font-size:2.3rem;
-    }
-    #name{
-        font-size:2rem;
-        margin-top:-70px;
-    }
-    aside{
-        height:750px;
-    }
-    .img-circle{
-        margin-top:-100px;
-        margin-bottom:-40px;
-    }        
-
-
-
-    #titreformation{
-        margin-top:50px;
-    }
-  
-}
-
-
-
-
-
-
-
-
-
 
 .trait{                 /*******COMMUN*******/
     height:4px;
@@ -337,3 +258,76 @@ main{                  /* ************  DROITE  ********** */
 #date5{
     font-size:0.9rem;
 }
+
+
+@media all and (max-width:970px){
+    .container{
+        width:970px;   
+    }
+    aside{
+        height:2125px;
+    }
+
+
+
+
+    #dotcercle,#cercle{
+        height:50px;
+        padding-left:30px;
+    }
+    #textcontact{
+        margin-bottom:80px;
+        padding-top:40px;
+    }
+    #imageloisir{
+        margin-top:200px;
+    }
+    #loisirs{
+        margin-top:200px;
+    }
+    .iconeloisir{
+        margin-left:35px;
+        margin-bottom:-40px;
+    }
+
+   
+
+
+    #textexperience{
+        padding-left:150px;
+    }       
+}
+
+
+
+div{
+    border: black solid 0.02px;
+}
+
+@media all and (max-width:780px){
+    .container{
+        width:780px;
+    }
+    #nam{
+        font-size:2.3rem;
+    }
+    #name{
+        font-size:2rem;
+        margin-top:-70px;
+    }
+    aside{
+        height:750px;
+    }
+    .img-circle{
+        margin-top:-100px;
+        margin-bottom:-40px;
+    }        
+
+
+
+    #titreformation{
+        margin-top:50px;
+    }
+  
+}
+
