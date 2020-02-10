@@ -299,11 +299,6 @@ main{                  /* ************  DROITE  ********** */
 }
 
 
-
-div{
-    border: black solid 0.02px;
-}
-
 @media all and (max-width:780px){
     .container{
         width:780px;
