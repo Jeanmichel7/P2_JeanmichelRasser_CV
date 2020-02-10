@@ -1,4 +1,5 @@
 
+
 .trait{                 /*******COMMUN*******/
     height:4px;
     width:100%;
@@ -21,6 +22,9 @@
     font-size:1.0rem;
     margin:5px 0px 5px 0px;
   
+}
+#h5{
+    font-size:1.2rem;
 }
 
 
@@ -53,47 +57,35 @@
 
 
 
-
-aside{            /* **************** GAUCHE  ************/   
+/* **************** GAUCHE  ****************************/  
+aside{             
     background-color:#FFCA28;
     border-radius:15px;
 }
-#fondjaune{
-    background-color:#FFCA28;
-}
+
 
 
 .photo{
-    margin-top:60px;
-    margin-bottom: 120px; 
     display: flex;
     justify-content:center;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding: 6vh 0 6vh 0;
 }
 
-#titrecontact{    
-    position:absolute;                        /*CONTACT*/
+#titrecontact{                          /*CONTACT*/
     background-color:#404040;
+    border-radius:7px;
     color:#FFCA28;
     font-weight: bold;
     text-align:center;
     font-size:1.6rem;
-    font-family:Arial;
+    font-family:Arial;   
 
-    margin-top:-60px;
-    padding-top:5px;
-    margin-left:-15px;
-                                            
+    padding:2px 2px 2px 2px;
 }
 #textcontact{
-    display:flex; 
-    flex-direction:column;
+    margin:5vh 0 5vh 0;
+
     color:#404040;
-
-    padding-bottom:30px;
-    
-
     font-size:0.9rem;
     font-family:Arial;
 }
@@ -108,76 +100,69 @@ aside{            /* **************** GAUCHE  ************/
 
 
 #apropos{                         /*A PROPOS*/
-    position: absolute;
+   
     background-color: #404040;
+    border-radius:7px;
     color:#FFCA28;
     text-align:center;
     font-weight:bold;
     font-size:1.7rem;
-    font-family:arial;
-    margin-left:-15px;
-
+    font-family:arial;  
     
+    padding:2px 2px 2px 2px;
 }
 #textapropo{
     text-align:justify;
     font-family:Arial;
+
     color:#404040;
-    padding:110px 30px 30px 30px;
-    margin-top:70px;
+
+    padding:30px 30px 110px 30px;
+    margin: 3vh 0 20vh 0;
     
 }
-
-
 
 
 
 
 #loisirs{  
-    position:absolute;                /*LOISIRS*/
+                  /*LOISIRS*/
     background-color: #404040;
+    border-radius:7px;
     color:#FFCA28;
     text-align:center;
     font-weight:bold;
     font-size:1.7rem;
-    margin-left:-15px;
-    margin-top:220px;
+    padding:2px 2px 2px 2px;
 }
 
-.iconeloisir{
-    margin-top:80px;
-    padding:0px 10px 0px 10px;
-    height:60px;
-}
 #imageloisir{
-    padding-left:25px;
-    margin-top:220px;
+    align-content:center;
+    margin-left:30px;
+    
+}
+.iconeloisir{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:80px;
+}
+.iconeloisir img{ 
+    height:60px;
+    
 }
 
 
 
-
-
-
-
-
-main{                  /* ************  DROITE  ********** */
-        height:100%;
-        color:#404040;
-        margin-left:20px;
-}
-
-
+/* ******************  DROITE  ****************** */
 
 #nam{                  /* *********Titre********/
     color:#FFCA28;
-    font-weight:bold;
-    margin-left:-15px;
 }
 #name{
     font-size:3rem;
     font-weight:normal;
-    padding-top: 90px;
+    margin-top: 80px;
+    
     
 }
 #dev{
@@ -185,7 +170,7 @@ main{                  /* ************  DROITE  ********** */
 }
 #textdevelop{
     font-size:1.7em;
-    margin-bottom:110px;
+    margin-bottom:80px;
     font-weight:bold;
     color:#404040;
 }
@@ -225,7 +210,8 @@ main{                  /* ************  DROITE  ********** */
 
 
 #titreexperience{       /*******EXPERIENCE PRO*********/
-    display:flex;
+    display:flex;    
+    margin-top:25px;
 }
 #textexperience{
     font-size:0.9rem;
@@ -236,19 +222,6 @@ main{                  /* ************  DROITE  ********** */
 }
 
 
-
-
-
-
-
-
-
-
-
-#titrerecommandation{    /*******RECOMMANDATIONS********/
-    display:flex;
-    margin-top:25px;
-}
 #date3{    
     font-size:0.9rem;
 }
@@ -260,42 +233,61 @@ main{                  /* ************  DROITE  ********** */
 }
 
 
-@media all and (max-width:970px){
+
+
+#titrerecommandation{    /*******RECOMMANDATIONS********/
+    display:flex;
+    margin-top:25px;
+}
+#cadrerecommandation{
+    margin-bottom:20px;
+}
+
+
+
+@media all and (max-width:1200px){
     .container{
-        width:970px;   
+        width:1170px;
+    }
+    #imageloisir{
+        align-content:center;
+        margin-left:10px;
+        
+    }
+
+
+
+
+}
+
+@media all and (max-width:1000px){
+    .container{
+        width:1000px;   
     }
     aside{
-        height:2125px;
+        height:2020px;
     }
-
-
-
-
     #dotcercle,#cercle{
         height:50px;
         padding-left:30px;
     }
     #textcontact{
-        margin-bottom:80px;
-        padding-top:40px;
+        margin-bottom:20px;
+        margin-top:20px;
     }
+
+    #textapropo{
+        margin-bottom:150px;
+    }
+
     #imageloisir{
-        margin-top:200px;
-    }
-    #loisirs{
-        margin-top:200px;
-    }
-    .iconeloisir{
-        margin-left:35px;
-        margin-bottom:-40px;
-    }
-
-   
-
-
+        padding-left:6vh;
+        margin-top:20px;
+    }   
     #textexperience{
         padding-left:150px;
-    }       
+       
+    }    
 }
 
 
@@ -303,26 +295,48 @@ main{                  /* ************  DROITE  ********** */
     .container{
         width:780px;
     }
+    aside{
+        height:580px;
+    }
     #nam{
-        font-size:2.3rem;
+        font-size:2.5rem;
     }
     #name{
-        font-size:2rem;
-        margin-top:-70px;
+        font-size:2.6rem;
     }
-    aside{
-        height:750px;
+    #name,#textdevelop{
+        background-color:white;
+        text-align:center;
+        border-radius:10px;
     }
     .img-circle{
-        margin-top:-100px;
-        margin-bottom:-40px;
+        margin-top:-20px;
+        margin-bottom:-20px;
     }        
 
 
-
-    #titreformation{
+    #titreformation{    
         margin-top:50px;
     }
+    #textapropo{
+        padding:2vh 2vh 2vh 2vh;
+        margin:0 0 0 0;
+        background-color:#FFCA28;
+        border-radius:15px;
+    }
+    #imageloisir{
+        display:flex;
+        justify-content:space-around;
+        margin:15px 2px 0 0px;
+        padding-left:0px;
+        
+    }
+    #quelquechose{
+        background-color:#FFCA28;
+        border-radius:15px;
+        padding:20px 20px 20px 20px;
+    }
+   
   
-}
 
+}
