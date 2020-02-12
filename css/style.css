@@ -149,7 +149,7 @@ aside{
 
 #imageloisir{
     align-content:center;
-    margin-left:3vh;
+    margin-left:4vh;
 }
 .iconeloisir{
     margin:2vh 0 2vh 0;
@@ -242,11 +242,8 @@ aside{
     margin-top:2vh;
 }
 #cadrerecommandation{
-    display:flex;
-    justify-content:center;
     padding: 0 2vh 2vh 2vh;
 }
-
 
 
 
@@ -287,10 +284,8 @@ aside{
         margin-top:4vh;
     }
     #textapropo{
-        margin-bottom:20vh;
+        margin-bottom:19vh;
     }
-
-
     #imageloisir{
         padding-left:5vh;
         margin-top:1vh;
@@ -331,10 +326,10 @@ aside{
         margin-top:-40px;
         margin-bottom:-40px;
     }     
-    
     #titrecontact{
-        width:56.5vh;
+        width:56vh;
     }
+    
     #textcontact{
         width:600px;
         
@@ -349,21 +344,11 @@ aside{
         align-self: center;
     }
 
-  
-
-
-
-
-
 
 
     #titreformation{    
         margin-top:6vh;
     }
-
-
-  
-
 
 
 
