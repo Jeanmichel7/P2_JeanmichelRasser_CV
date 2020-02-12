@@ -184,7 +184,7 @@ aside{
 
 
 
-#titreformation{        /* ******* FORMATION  ********/
+.titreformation{        /* ******* FORMATION  ********/
     display:flex;
     font-weight: bold;
 }
@@ -345,7 +345,7 @@ aside{
 
 
 
-    #titreformation{    
+    .titreformation{    
         margin-top:6vh;
     }
 
