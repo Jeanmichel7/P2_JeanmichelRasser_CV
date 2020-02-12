@@ -355,7 +355,9 @@ aside{
             background-color:#FFCA28;
             border-radius:15px;
     }
-  
+    .iconeloisir img{
+        height:60px;
+    }
     .imageloisir{
         display:flex;
         justify-content:space-around;
