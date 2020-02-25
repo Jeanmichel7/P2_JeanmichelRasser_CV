@@ -54,7 +54,7 @@ h6{
 
 
 /* **************** GAUCHE  ****************************/  
-aside{             
+.aside{             
     background-color:#FFCA28;
     border-radius:15px;
 }
@@ -272,7 +272,7 @@ aside{
     .container{
         width:970px;   
     }
-    aside{
+    .aside{
         height:2040px;
     }
     .dotcercle,.cercle{
@@ -301,7 +301,7 @@ aside{
     .container{
         width:750px;
     }
-    aside{
+    .aside{
         height:470px;
     }
     .nam{
@@ -365,7 +365,7 @@ aside{
         margin:0 0.5vh 0 0px;
         padding-left:0;
     }
-    #quelquechose{
+    #loisirxs{
         background-color:#FFCA28;
         border-radius:15px;
         padding:2vh 2vh 2vh 2vh;
@@ -380,6 +380,14 @@ aside{
     .textexperience p{
         width:350px;
     }
-   
+}
 
+
+@media screen and (max-width:330px){
+    .container{
+        width:328px;
+    }
+    .textexperience p{
+        width:300px;
+    }
 }
