@@ -23,7 +23,7 @@ main img{
 .trait{                 
     height:0.4vh;
     background-color:#FFCA28;
-    margin:5px 0 40px 10px;
+    margin:0 1vw 40px 10px;
 }
 
 
@@ -35,7 +35,7 @@ aside{
 }
 aside img{
     box-shadow: 0 0 20px #FF9626;
-    border-radius:300px;
+    border-radius:200px;
 
     height:200px;
     width:200px;
@@ -62,7 +62,7 @@ aside img{
     padding:0.3vh 0 0.3vh 0;
 }
 #contact{
-    margin:5vh 0 5vh 0;
+    margin:5vh 0 5vh 1.2vw;
 
     color:#404040;
 
@@ -205,10 +205,10 @@ h1{
     
     margin-left:30px;
 }
-#cadrerecommandation{
-    padding: 0 2vh 2vh 2vh;
+#recommandation{
+    padding: 0 2vh 2vh 10vh;
 }
-#cadrerecommandation p{
+#recommandation p{
     font-size:1.2rem;
 }
 
@@ -222,13 +222,10 @@ h1{
         padding-left:4vw;
     }
     #contact{
-        margin-bottom:4vh;
-        margin-top:4vh;
+        margin-bottom:6vh;
+        margin-top:6vh;
     }
-    .textapropo{
-        margin-bottom:19vh;
-    }
-   
+    
     .textexperience{
         padding:2vh 0 0 13vh;       
     }  
@@ -266,8 +263,11 @@ h1{
         border-radius:15px;
     }
     #titrerecommandation{
-        margin-top:1vh;
-    }    
+        margin-top:5vh;
+    }
+    #recommandation{
+        padding-left:2vw;
+    }  
     #loisirxs{
         background-color:#FFCA28;
         border-radius:15px;
