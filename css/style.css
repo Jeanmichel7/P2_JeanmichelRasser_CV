@@ -116,8 +116,10 @@ h6{
     font-weight:bold;
     font-size:1.7rem;
     font-family:arial;  
-    
-    padding:0.5vh 0 0.4vh 0;
+
+    height:5vh;
+    display:flex;
+    align-items: center;
 }
 .textapropo{
     text-align:justify;
@@ -321,10 +323,7 @@ h6{
     .photo{
         margin: 5vh 0 5vh 17vh;
     } 
-    .img{
-        margin-top:-40px;
-        margin-bottom:-40px;
-    }     
+       
     #titrecontact{
         width:56vh;
     }
@@ -375,19 +374,19 @@ h6{
 
 @media screen and (max-width:550px){
     .container{
-        width:545px;
+        width:90%;
     }
     .textexperience p{
-        width:350px;
+        width:90%;
     }
 }
 
 
 @media screen and (max-width:330px){
     .container{
-        width:328px;
+        width:90%;
     }
     .textexperience p{
-        width:300px;
+        width:90%;
     }
 }
