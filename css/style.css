@@ -1,79 +1,54 @@
-
-
-.trait{                 /*******COMMUN*******/
-    height:0.4vh;
-    background-color:#FFCA28;
-    margin:5px 0 40px 10px;
-}
-
-h3{
-    font-size:1.7rem;
-    font-weight:bold;
-    color:black;
-    
-    margin-left:30px;
-}
-h4{
+  /***********COMMUN************/
+h2{
     font-size:1.2rem;
     font-weight:bold; 
 }
-h5{
+h3{
     font-size:1.0rem;
     margin:5px 0px 5px 0px;
 }
-h6{
-    font-size:1.2rem;
+.date{    
+    font-size:0.9rem;
 }
 
 
-
-
-
-
-
-.bagage{              /*************IMAGE***************/
-    height:4vh;
-}                
-.chapeau{
-    height:4vh;
-}
-.imagepen{
+     
+main img{
     height:4vh;
 }
 .dotcercle,.cercle{
     height:1.2vh;
     margin-left:1.8vh;
 }
+.trait{                 
+    height:0.4vh;
+    background-color:#FFCA28;
+    margin:0 1vw 40px 10px;
+}
 
 
 
-
-
-
-
-
-
-/* **************** GAUCHE  ****************************/  
-.aside{             
+/*********************************** GAUCHE  ****************************/  
+aside{             
     background-color:#FFCA28;
     border-radius:15px;
 }
+aside img{
+    box-shadow: 0 0 20px #FF9626;
+    border-radius:200px;
 
+    height:200px;
+    width:200px;
 
-
-.photo{
-    display: flex;
-    justify-content:center;
-
-
-    border-radius:100px;
-    width:180px;
-    height:180px;
-
-    margin: 7vh 0 7vh 8vh;
-    
-    box-shadow: inset 0 0 1em gold, 0 0 2em #FF9626;
+    margin:4vh 0 4vh 0;
 }
+.photo{
+    display:flex;
+    justify-content: center;
+}
+
+
+
 
 #titrecontact{                /******CONTACT*******/
     background-color:#404040;
@@ -84,21 +59,15 @@ h6{
     font-size:1.6rem;
     font-family:Arial;   
 
-    width:61vh;
     padding:0.3vh 0 0.3vh 0;
 }
-#textcontact{
-    margin:5vh 0 5vh 0;
+#contact{
+    margin:5vh 0 5vh 1.2vw;
 
     color:#404040;
+
     font-size:0.9rem;
     font-family:Arial;
-}
-#textcontact1{
-    display:flex;
-}
-.contenantcontact{
-    padding: 0.5vh 2vh 0.5vh 3.5vh;
     font-weight: bold;
 }
 
@@ -106,9 +75,7 @@ h6{
 
 
 
-
 .apropos{                /**********A PROPOS*********/
-   
     background-color: #404040;
     border-radius:7px;
     color:#FFCA28;
@@ -129,7 +96,6 @@ h6{
 
     padding:2vh 4vh 20vh 4vh;
     margin: 3vh 0 21vh 0;
-    
 }
 
 
@@ -147,11 +113,7 @@ h6{
     padding:0.4vh 0 0.5vh 0;
 }
 
-.imageloisir{
-    align-content:center;
-    margin-left:4vh;
-}
-.iconeloisir{
+.imageloisir img{
     margin:2vh 0 2vh 0;
     height:60px;
 }
@@ -159,22 +121,20 @@ h6{
 
 
 
-/* ******************  DROITE  ****************** */
+/* *******************************  DROITE  ***************************** */
 
-.nam{                   /* *********Titre********/
+.prenom{                   /* *********Titre********/
     color:#FFCA28;
 }
-.name{
+header{
     font-size:3rem;
     font-weight:normal;
     margin-top: 11vh;
-    
-    
 }
-.dev{
+.souligner{
     border-bottom:#FFCA28 solid 0.4vh;
 }
-.textdevelop{
+h1{
     font-size:1.7rem;
     margin-bottom:8vh;
     font-weight:bold;
@@ -190,13 +150,13 @@ h6{
     display:flex;
     font-weight: bold;
 }
+.titreformation p{
+    font-size:1.7rem;
+    font-weight:bold;
+    color:black;
+    margin-left:30px;
+}
 
-#date1{
-    font-size:0.9rem;
-}
-#date2{
-    font-size:0.9rem;
-}
 #textformation{
     font-size:0.9rem;
     text-align:justify;
@@ -216,21 +176,19 @@ h6{
     display:flex;    
     margin-top:4.5vh;
 }
+#titreexperience p{
+    font-size:1.7rem;
+    font-weight:bold;
+    color:black;
+    
+    margin-left:30px;
+}
 .textexperience{
     font-size:0.9rem;
     margin-bottom:3.5vh;
 }
 .textexperience p{
     font-family:Arial;
-}
-#date3{    
-    font-size:0.9rem;
-}
-#date4{
-    font-size:0.9rem;
-}
-#date5{
-    font-size:0.9rem;
 }
 
 
@@ -242,151 +200,83 @@ h6{
     display:flex;
     margin-top:2vh;
 }
-#cadrerecommandation{
-    padding: 0 2vh 2vh 2vh;
-}
-
-
-
-
-@media screen and (max-width:1200px){
-    .container{
-        width:1170px;
-    }
-    .imageloisir{
-        align-content:center;
-        margin: 0 0 0 2vh;
-    }
-    .textapropo{
-        margin-bottom:15vh;
-        padding:1.5vh 1vh 30vh 1.5vh;
-    }
-    #textcontact{
-        padding:0 0 0 0;
-    }
-    .photo{
+#titrerecommandation p{
+    font-size:1.7rem;
+    font-weight:bold;
+    color:black;
     
-        margin: 7vh 0 7vh 5vh;
-    }
+    margin-left:30px;
 }
+#recommandation{
+    padding: 0 2vh 2vh 10vh;
+}
+#recommandation p{
+    font-size:1.2rem;
+}
+
+
 
 @media screen and (max-width:1000px){
-    .container{
+    .body{
         width:970px;   
     }
-    .aside{
-        height:2040px;
-    }
     .dotcercle,.cercle{
-        padding-left:4vh;
+        padding-left:4vw;
     }
-    #textcontact{
-        margin-bottom:4vh;
-        margin-top:4vh;
+    #contact{
+        margin-bottom:6vh;
+        margin-top:6vh;
     }
-    .textapropo{
-        margin-bottom:19vh;
-    }
-    .imageloisir{
-        padding-left:5vh;
-        margin-top:1vh;
-    }   
+    
     .textexperience{
         padding:2vh 0 0 13vh;       
     }  
-    .photo{
-        margin: 7vh 0 7vh 0vh;
-    }  
+  
 }
 
 @media screen and (max-width:765px){
-    .container{
+    body{
         width:750px;
     }
-    .aside{
-        height:470px;
-    }
-    .nam{
+   
+    .prenom{
         font-size:2.5rem;
         
     }
-    .name{
+    .nom{
         margin-top:4vh;
         font-size:2.6rem;
         text-align:center;
     }
-    .textdevelop{
+    h1{
         text-align:center;
         margin-bottom:3vh;
     }
-
-    .photo{
-        margin: 5vh 0 5vh 17vh;
-    } 
-       
-    #titrecontact{
-        width:56vh;
+    #contact{
+        text-align: center;
     }
-    
-    #textcontact{
-        width:600px;
-        
-        display:flex;
-        flex-wrap:wrap;
-    }
-    #textcontact1,#textcontact3{
-        width:200px;
-        padding: 0 0 0 2.5vh;
-    }
-    #textcontact2{
-        align-self: center;
-    }
-
-
-
     .titreformation{    
         margin-top:6vh;
     }
-
     .textapropo{
-            padding:2vh 2vh 2vh 2vh;
-            margin:0 0 0 0;
-            background-color:#FFCA28;
-            border-radius:15px;
+        padding:2vh 2vw 2vh 2vw;
+        margin:0 0 0 0;
+        background-color:#FFCA28;
+        border-radius:15px;
     }
-    .iconeloisir img{
-        height:60px;
+    #titrerecommandation{
+        margin-top:5vh;
     }
-    .imageloisir{
-        display:flex;
-        justify-content:space-around;
-
-        margin:0 0.5vh 0 0px;
-        padding-left:0;
-    }
+    #recommandation{
+        padding-left:2vw;
+    }  
     #loisirxs{
         background-color:#FFCA28;
         border-radius:15px;
         padding:2vh 2vh 2vh 2vh;
     }
-    
-}
-
-@media screen and (max-width:550px){
-    .container{
-        width:90%;
-    }
-    .textexperience p{
-        width:90%;
-    }
-}
-
-
-@media screen and (max-width:330px){
-    .container{
-        width:90%;
-    }
-    .textexperience p{
-        width:90%;
+    .imageloisir{
+        display:flex;
+        justify-content: space-around;
     }
 }
