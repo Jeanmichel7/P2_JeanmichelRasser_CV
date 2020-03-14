@@ -19,6 +19,7 @@ main img{
 .dotcercle,.cercle{
     height:1.2vh;
     margin-left:1.8vh;
+    color:#FFCA28;
 }
 .trait{                 
     height:0.4vh;
@@ -81,9 +82,6 @@ aside img{
     font-size:1.7rem;
     font-family:arial;  
 
-    height:5vh;
-    display:flex;
-    align-items: center;
 }
 .textapropo{
     text-align:justify;
@@ -91,7 +89,7 @@ aside img{
 
     color:#404040;
 
-    padding:2vh 4vh 20vh 4vh;
+    padding:2vh 4vh 20vh 3vh;
     margin: 3vh 0 21vh 0;
 }
 
@@ -108,9 +106,9 @@ aside img{
     padding:0.4vh 0 0.5vh 0;
 }
 
-.imageloisir img{
+.imageloisir i{
     margin:2vh 0 2vh 0;
-    height:60px;
+    justify-content: space-around;
 }
 
 
@@ -153,9 +151,6 @@ h1{
     text-align:justify;
 
 }
-#textformation p{
-    font-family:Arial;
-}
 
 
 
@@ -178,6 +173,7 @@ h1{
 }
 .textexperience p{
     font-family:Arial;
+    text-align: justify;
 }
 
 
@@ -202,7 +198,7 @@ h1{
     font-size:1.2rem;
 }
 
-
+/***********************Media Queries*********************/
 
 @media screen and (max-width:1000px){
     .body{
@@ -219,6 +215,12 @@ h1{
     .textexperience{
         padding:2vh 0 0 13vh;       
     }  
+    .textapropo{
+        padding:0 1vh 590px 1vh;
+    }
+    .imageloisir{
+        display:flex;
+    }
 }
 
 
@@ -242,10 +244,20 @@ h1{
         margin-bottom:3vh;
     }
     #contact{
-        text-align: center;
+        text-align:center;
     }
+
+
+
+
+
     .titreformation{    
         margin-top:6vh;
+    }
+    #aproposxs{
+        background-color:#FFCA28;
+        border-radius:15px;
+        padding:2vh 2vh 2vh 2vh;         
     }
     .textapropo{
         padding:2vh 2vw 2vh 2vw;
@@ -253,6 +265,7 @@ h1{
         background-color:#FFCA28;
         border-radius:15px;
     }
+   
     #titrerecommandation{
         margin-top:5vh;
     }
@@ -268,4 +281,5 @@ h1{
         display:flex;
         justify-content: space-around;
     }
+    
 }
