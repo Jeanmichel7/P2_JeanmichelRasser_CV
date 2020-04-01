@@ -109,9 +109,11 @@ aside img{
     padding:0.4vh 0 0.5vh 0;
 }
 
+
+
 .imageloisir i{
-    margin:2vh 0 2vh 1vw; 
- 
+    margin:20px 10px 10px 10px; 
+    padding-left:15px;
 }
 
 
@@ -207,11 +209,8 @@ h1{
     .body{
         width:1170px;  
     } 
-    .imageloisir{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: flex-start;
+    .imageloisir i{
+        padding-left:0;
     }
 }
 
@@ -226,14 +225,18 @@ h1{
         margin-bottom:6vh;
         margin-top:6vh;
     }
+    .imageloisir i{
+        display:flex;  
+        justify-content: center;    
+    }
+
     
     .textexperience{
         padding:2vh 0 0 13vh;       
     }  
     .textapropo{
-        padding:0 1vh 590px 1vh;
-    }
-    
+        padding:0 1vh 470px 1vh;
+    }   
 }
 
 
@@ -289,6 +292,7 @@ h1{
         background-color:#FFCA28;
         border-radius:15px;
         padding:2vh 2vh 2vh 2vh;
+        margin-top:30px;
     }
     #loisirxs i{
         color: #404040;
