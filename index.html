@@ -1,192 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                                       <!-- compatiblité IE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">                        <!--mise en page sur les navigateurs mobiles-->
+    <meta name="description" content="Jean-Mihel Rasser Développeur Web freelance">
+    <meta property="og:title" content="Mon CV en ligne"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Présentation de mon CV sous forme de site web"/>
+    <meta property="og:url" content="https://jeanmichel7.github.io/P2_JeanmichelRasser_CV/"/>
+    <meta property="og:locale" content="fr_FR"/>
+
+    <title>CV Jean-Michel Rasser - Developpeur Web</title>
+
+
     <link href="bootstrap-4.4.1/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    
     <script src="bootstrap-4.4.1/js/jquery.js"></script>
     <script src="bootstrap-4.4.1/js/bootstrap.js"></script>
-    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="container">
-    <header class="row">
-<!--Rajoue de "CONTACT" en taille XS-->
-        <div class="d-none d-sm-block d-md-none col-md-12" id="name"><span id="nam">JEAN-MICHEL</span>
-            RASSER</div>
-        <div class="d-none d-sm-block d-md-none col-md-12" id="textdevelop"><span id="dev">Dével</span>oppeur
-            web freelance</div>
+    <div class="row">   <!-- utilisation de bootstrap-->
+
+            <!--Rajoue du titre en taille XS-->
+            <div class="d-none d-sm-block d-md-none col-md-12 nom">        <!-- d-none d-md-block col-md-12 l'affiche en XS-->
+                <p><span class="prenom">JEAN-MICHEL</span> RASSER </p>
+                <h1><span class="souligner">Dével</span>oppeur web freelance</h1>
+            </div>
 
 
+        <!-- ********************************  Partie GAUCHE  ************************************ -->
         <aside class="col-md-4">
-<!-- ********************************  Partie GAUCHE  ************************************ -->
-            <div class="col-md-12">
-                <div class="photo" style="background:url(img/photofondtransparent.png) no-repeat -35px -35px;" >
-                    
-                </div>
+            <div class="photo">
+                <img src="img/photofondtransparent.png" alt="photo">
+            </div>
+
+            <p id="titrecontact">CONTACT</p>
+            <div class="container" id="contact">
+                <p>Adresse<br>Paris,France</p>
+                <p>Téléphone<br>06 85 65 24 50</p>
+                <p>Email<br>Adresse@laposte.com</p>
+                <p>Site Web<br>Google.fr</p>
+                <p>Twitter<br>Blablatwite@</p>
             </div>
 
 
-            <div class="col-md-12" id="titrecontact">CONTACT</div>
-            <div class="container" id="textcontact">
-                <div class="row" id="textcontact1">
-                    <div class="col-sm-12" id="contenantcontact">Adresse<br>Paris,France</div>
-                    <div class="col-sm-12" id="contenantcontact">Téléphone<br>06 85 65 24 50</div>
-                </div>
-                <div class="row" id="textcontact2">
-                    <div class="col-sm-12" id="contenantcontact">Email<br>adresse@laposte.com</div>
-                </div>
-                <div class="row" id="textcontact3">
-                    <div class="col-sm-12" id="contenantcontact">Site Web<br>google.fr</div>
-                    <div class="col-sm-12" id="contenantcontact">Twitter<br>Blablatwite@z</div>
-                </div>
+            <p class="d-none d-md-block col-md-12 apropos">A PROPOS DE MOI</p> <!-- d-none d-md-block col-md-12 cache le bloc en xs-->
+            <div class="d-none d-md-block col-md-12 textapropo">
+                Anciennement bagagiste à l'aéroport durant 10ans, je suis en reconversion professionnel à l'age de
+                27ans, étant pationné par l'informatique et les nouvelles technologie, j'ai décidé de m'initier à la
+                programmation avec un Arduino, puis au développement web. Par la suite j'ai intégré un programme de
+                formation en tant que Développeur Web afin d'obtenir une alternance pour intégrer le monde du travail.
             </div>
 
 
-            <div class="d-none d-md-block col-md-12" id="apropos">A PROPOS DE MOI</div>
-            <div class="d-none d-md-block col-md-12" id="textapropo">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                viverra maecenas accumsan lacus vel facilisis. Quis ipsum suspendisse ultrices gravida. Risus
-                commodo
-                viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum su.
-            </div>
-
-
-            <div class="d-none d-md-block col-md-12" id="loisirs">LOISIRS</div>
-            <div class="d-none d-md-block col-md-12" id="imageloisir">
-                <img src="img/nage.png" alt="icone nageur" class="iconeloisir">
-                <img src="img/Biking.png" alt="icone velo" class="iconeloisir">
-                <img src="img/pingpong.png" alt="icone pingpong" class="iconeloisir">
+            <p class="d-none d-md-block col-md-12 loisirs">LOISIRS</p>
+            <div class="d-none d-md-block col-md-12 imageloisir">
+                <i class="fas fa-swimmer fa-3x"></i>
+                <i class="fas fa-biking fa-3x"></i>
+                <i class="fas fa-table-tennis fa-3x"></i>
             </div>
         </aside>
 
-<!--*********************************  Partie DROITE  **********************************-->
-        <section class="col-md-8">
-            <div class="d-none d-md-block col-md-12" id="name">
-                <span id="nam">JEAN-MICHEL</span> RASSER</div>
-            <div class="d-none d-md-block col-md-12" id="textdevelop"><span id="dev">Dével</span>oppeur web
-                freelance</div>
+        <!--*********************************  Partie DROITE  **********************************-->
+        <main class="col-md-8">
 
-
-            <header class="col-md-12" id="titreformation"><img src="img/formation.png" alt="icone formation"
-                    class="chapeau">
-                <p class="h2">FORMATION</p>
+            <header class="d-none d-md-block col-md-12 nom">        <!-- d-none d-md-block col-md-12 le cache en XS-->
+                <p><span class="prenom">JEAN-MICHEL</span> RASSER </p>
+                <h1><span class="souligner">Dével</span>oppeur web freelance</h1>
             </header>
+
+            <!------------------------------------------FORMATION------------------------------------------>
+            <section class="col-md-12 titreformation">
+                <i class="fas fa-graduation-cap fa-3x"></i>
+                <p>FORMATION</p>
+            </section>
             <div class="trait"></div>
 
-
             <section class="row">
-                <article class="col-md-12" id="formation1">
+                <article class="col-md-12">
                     <div class="row">
-                        <div class="col-lg-1 col-sm-2 " id="dotcercle">
-                            <img src="img/dotcercle.png" alt="dotcercle" class="dotcercle">
+                        <div class="col-lg-1 col-sm-2">         <!-- utilisation de boostrape pour passer a la ligne en SM-->
+                            <i class="far fa-dot-circle dotcercle"></i>
                         </div>
-                        <div class="col-lg-3 col-sm-10" id="date1">
+                        <div class="col-lg-3 col-sm-10 date">
                             2016 - 2017<br>Paris
                         </div>
-                        <div class="col-lg-8 col-md-12" id="textexperience">
-                            <div class="col-md-12" id="h3">OPENCLASSROOMS</div>
-                            <div class="col-md-12" id="h4">Junior Web Developer</div>
+                        <div class="col-lg-8 col-md-12 textexperience">
+                            <h2 class="col-md-12">OPENCLASSROOMS</h2>
+                            <h3 class="col-md-12">Junior Web Developer</h3>
                             <div class="col-md-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fuscue eleifend,
-                                    diam vitae
-                                    faucibus varius, neque lectus viverra justo, eget pharetra felis massa sit
-                                    amet lacus. </p>
+                                <p> Formation en e-learning de 12 mois me permettant d'acquérir des compétences en
+                                    Front-End, HTML5, CSS3, JavaScript, Responsive Design, Animation, Git et GitHub. Et
+                                    également des compétences Back-End avec le PHP,MySQL, SEO et des frameworks comme
+                                    Node.js, Express.</p>
                             </div>
                         </div>
                     </div>
                 </article>
 
-
-                <article class="col-md-12" id="formation2">
+                <article class="col-md-12">
                     <div class="row">
-                        <div class="col-lg-1 col-sm-2" id="cercle">
-                            <img src="img/cercle.png" alt="cercle" class="cercle">
+                        <div class="col-lg-1 col-sm-2">
+                            <i class="fas fa-circle cercle"></i>
                         </div>
-                        <div class="col-lg-3 col-sm-10" id="date2">
-                            2014 - 2016<br>Orlénas
+                        <div class="col-lg-3 col-sm-10 date">
+                            2014 - 2016<br>Colmar
                         </div>
-                        <div class="col-lg-8 col-md-12" id="textexperience">
-                            <div class="col-md-12" id="h3">UNIVERSITY OF LOREM</div>
-                            <div class="col-md-12" id="h4">Graphic Designer</div>
+                        <div class="col-lg-8 col-md-12 textexperience">
+                            <h2 class="col-md-12">Baccalauréat SSI</h2>
+                            <h3 class="col-md-12">Lycée Blaise Pascal</h3>
                             <div class="col-md-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fuscue eleifend,
-                                    diam vita
-                                    e faucibus varius, neque lectus viverra justo, eget pharetra felis massa sit
-                                    amet lacus. </p>
-
+                                <p>Baccalauréat Sciencifique option Science de l'Ingénieur spécialisation Mathématique.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </article>
             </section>
 
-
-            <header class="col-md-12" id="titreexperience"><img src="img/bagage.png" alt="bagage" class="bagage">
-                <p class="h2">EXPERIENCE PROFESSIONELLE</p>
-            </header>
+            <!------------------------------------------EXPERIENCE PRO------------------------------------------>
+            <section class="col-md-12" id="titreexperience">
+                <i class="fas fa-suitcase fa-3x"></i>
+                <p>EXPERIENCE PROFESSIONELLE</p>
+            </section>
             <div class="trait"></div>
 
 
             <section class="row">
-                <article class="col-md-12" id="experience1">
+                <article class="col-md-12">
                     <div class="row">
-                        <div class="col-lg-1 col-sm-2" id="dotcercle">
-                            <img src="img/dotcercle.png" alt="dotcercle" class="dotcercle">
+                        <div class="col-lg-1 col-sm-2">
+                            <i class="far fa-dot-circle dotcercle"></i>
                         </div>
-                        <div class="col-lg-3 col-sm-10" id="date3">
-                            Mars 2018 - Poste actuel<br>Paris
+                        <div class="col-lg-3 col-sm-10 date">
+                            Mai 2011 - Mai 2020<br>Bartenheim, Alsace
                         </div>
-                        <div class="col-lg-8 col-md-12" id="textexperience">
-                            <div class="col-md-12" id="h3">DESIGN INC.</div>
-                            <div class="col-md-12" id="h4">Web developer</div>
+                        <div class="col-lg-8 col-md-12 textexperience">
+                            <h2 class="col-md-12">Aéroport de Bâle-Mulhouse</h2>
+                            <h3 class="col-md-12">Agent de piste</h3>
                             <div class="col-md-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fuscue ele
-                                    ifend, diam vitae faucibus varius, neque lectus viverra justo, eget pharetra
-                                    felis massa sit amet lacus.</p>
+                                <p>Durant mes 10années d'expérience en tant qu'agent de piste, j'ai pu apprendre à
+                                    organiser mon travail, géner et adapter mon temps au flux aérien, travailler en
+                                    équipe etc.</p>
                             </div>
                         </div>
                     </div>
                 </article>
 
 
-                <article class="col-md-12" id="experience2">
+                <article class="col-md-12">
                     <div class="row">
-                        <div class="col-lg-1 col-sm-2" id="cercle">
-                            <img src="img/cercle.png" alt="cercle" class="cercle">
+                        <div class="col-lg-1 col-sm-2">
+                            <i class="fas fa-circle cercle"></i>
                         </div>
-                        <div class="col-lg-3 col-sm-10" id="date4">
-                            Mars 2018 - Poste actuel<br>Paris
+                        <div class="col-lg-3 col-sm-10 date">
+                            2010 - Actuel<br>Domicile
                         </div>
-                        <div class="col-lg-8 col-md-12" id="textexperience">
-                            <div class="col-md-12" id="h3">DESIGN INC.</div>
-                            <div class="col-md-12" id="h4">Graphic Designer</div>
+                        <div class="col-lg-8 col-md-12 textexperience">
+                            <h2 class="col-md-12">Digue SARL</h2>
+                            <h3 class="col-md-12">Ouvrier agricole</h3>
                             <div class="col-md-12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Fuscue eleifend, diam vitae faucibus varius, neque lectus viverra justo,
-                                    eget pharetra felis massa sit amet lacus.</p>
+                                <p>Fils d'agriculteur j'ai toujours aider au différentes tâches de l'exploitation
+                                    agricole. Organiser travaux, manuel, etc. </p>
                             </div>
                         </div>
                     </div>
                 </article>
 
 
-                <article class="col-md-12" id="experience3">
+                <article class="col-md-12">
                     <div class="row">
-                        <div class="col-lg-1 col-sm-2" id="cercle">
-                            <img src="img/cercle.png" alt="cercle" class="cercle">
+                        <div class="col-lg-1 col-sm-2">
+                            <i class="fas fa-circle cercle"></i>
                         </div>
-                        <div class="col-lg-3 col-sm-10" id="date5">
-                            Mars 2018 - Poste actuel<br>Paris
+                        <div class="col-lg-3 col-sm-10 date">
+                            Mars 2015 - Juillet 2015<br>Paris
                         </div>
-                        <div class="col-lg-8 col-md-12" id="textexperience">
-                            <div class="col-md-12" id="h3">DESIGN INC.</div>
-                            <div class="col-md-12" id="h4">Graphic Designer</div>
+                        <div class="col-lg-8 col-md-12 textexperience">
+                            <h2 class="col-md-12">DESIGN INC.</h2>
+                            <h3 class="col-md-12">Graphic Designer</h3>
                             <div class="col-md-12">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Fuscue eleifend, diam vitae faucibus varius, neque lectus viverra justo,
@@ -199,58 +196,58 @@
 
 
 
-
-
-
-<!--Rajoue de "A PROPOS DE MOI" en taille XS-->
-            <div class="d-none d-sm-block d-md-none col-md-12" id="textapropo">
-                <div id="apropos">A PROPOS DE MOI</div>
-                <div id="textapropo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis. Quis ipsum suspendisse ultrices gravida. Risus
-                    commodo
-                    viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum su.
+            <!--Rajoue de "A PROPOS DE MOI" en taille XS-->
+            <div class="d-none d-sm-block d-md-none col-md-12" id="aproposxs">
+                <div class="apropos">A PROPOS DE MOI</div>
+                <div class="textapropo">
+                    Anciennement bagagiste à l'aéroport durant 10ans, je suis en reconversion professionnel à l'age de
+                    27ans, étant pationné par l'informatique et les nouvelles technologie, j'ai décidé de m'initier à la
+                    programmation avec un Arduino, puis au développement web. Par la suite j'ai intégré un programme de
+                    formation en tant que Développeur Web afin d'obtenir une alternance pour intégrer le monde du
+                    travail.
                 </div>
             </div>
 
+            <!------------------------------------------RECOMMANDATION------------------------------------------>
+            <footer>
+                <section class="col-md-12" id="titrerecommandation">
+                    <i class="fas fa-pen fa-3x"></i>
+                    <p>RECOMMANDATIONS</p>
+                </section>
+                
+                <div class="trait"></div>
 
+                <section class="col-md-12" id="recommandation">
+                    <div class="row">
+                        <article class="col-sm-6">
+                            <div class="col-md-12">
+                                <p>MAXIME KIEMAN</p>
+                            </div>
+                            <div class="col-md-12">Direction, Mon agence<br>Téléphone : <br>Email:name@mail.com
+                            </div>
+                        </article>
+                        <article class="col-sm-6">
+                            <div class="col-md-12">
+                                <p>MAXIME KIEMAN</p>
+                            </div>
+                            <div class="col-md-12">Direction, Mon agence<br>Téléphone : <br>Email:name@mail.com
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </footer>
 
-            <header class="col-md-12" id="titrerecommandation"><img src="img/download.png" alt="icone pen" class="imagepen">
-                <p class="h2">RECOMMANDATIONS</p>
-            </header>
-            <div class="trait"></div>
-            <section class="col-md-12" id="cadrerecommandation">
-                <div class="row">
-                    <article class="col-sm-6">
-                        <div class="col-md-12" id="h5">
-                            <p>MAXIME KIEMAN</p>
-                        </div>
-                        <div class="col-md-12">Direction, Mon agence<br>Téléphone : <br>Email:name@mail.com
-                        </div>
-                    </article>
-                    <article class="col-sm-6">
-                        <div class="col-md-12" id="h5">
-                            <p>MAXIME KIEMAN</p>
-                        </div>
-                        <div class="col-md-12">Direction, Mon agence<br>Téléphone : <br>Email:name@mail.com
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-<!--Rajoue de "LOISIRS" en taille XS-->
-            <div class="d-none d-xs-none d-sm-block d-md-none col-md-12" id="quelquechose">
-                <div id="loisirs">LOISIRS</div>
-                <div id="imageloisir">
-                    <div class="iconeloisir"><img src="img/nage.png" alt="icone nageur" class="iconeloisir"></div>
-                    <div class="iconeloisir"><img src="img/Biking.png" alt="icone vélo" class="iconeloisir"></div>
-                    <div class="iconeloisir"><img src="img/pingpong.png" alt="icone pingpong" class="iconeloisir"></div>
+            <!--Rajoue de "LOISIRS" en taille XS-->
+            <div class="d-none d-xxs-block d-xs-block d-sm-block d-md-none col-md-12" id="loisirxs">
+                <div class="loisirs">LOISIRS</div>
+                <div class="imageloisir">
+                    <i class="fas fa-swimmer fa-3x"></i>
+                    <i class="fas fa-biking fa-3x"></i>
+                    <i class="fas fa-table-tennis fa-3x"></i>
                 </div>
             </div>
-        </section>
-    </header>
+        </main>
+    </div>
 </body>
 
 </html>
