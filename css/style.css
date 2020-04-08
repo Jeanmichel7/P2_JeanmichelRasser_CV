@@ -7,6 +7,10 @@ h3{
     font-size:1.0rem;
     margin:5px 0px 5px 0px;
 }
+h4{
+    font-size:1.2rem;
+    font-weight:bold; 
+}
 .date{    
     font-size:0.9rem;
 }
@@ -106,7 +110,7 @@ aside img{
     text-align:center;
     font-weight:bold;
     font-size:1.7rem;
-    padding:0.4vh 0 0.5vh 0;
+    
 }
 
 
@@ -199,11 +203,8 @@ h1{
 #recommandation{
     padding: 0 2vh 2vh 10vh;
 }
-#recommandation p{
-    font-size:1.2rem;
-    font-weight:bold; 
 
-}
+
 
 /***********************Media Queries*********************/
 
@@ -317,5 +318,6 @@ h1{
     .recommandation1{
         margin-bottom:25px;
     }
+    
    
 }
