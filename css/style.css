@@ -37,11 +37,11 @@ main i{
 
 
 /*********************************** GAUCHE  ****************************/  
-aside{             
+#gauche{             
     background-color:#FFCA28;
     border-radius:15px;
 }
-aside img{
+#gauche img{
     box-shadow: 0 0 20px #FF9626;
     border-radius:200px;
 
